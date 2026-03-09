@@ -3,92 +3,55 @@ body {
 margin:0;
 font-family: Inter, Arial, sans-serif;
 color:white;
-text-align:center;
 
-background: radial-gradient(circle at top, #13243B, #0E1A2B);
+background-image: url("assets/temp-background.png");
+background-size: cover;
+background-position: center bottom;
+background-repeat: no-repeat;
+
+height:100vh;
+
+display:flex;
+align-items:center;
+justify-content:center;
 
 }
 
-.hero {
+.hero-content {
 
-padding-top:160px;
-padding-bottom:120px;
+display:flex;
+align-items:center;
+gap:30px;
+
+}
+
+.logo {
+
+width:90px;
+
+filter: drop-shadow(0 0 12px rgba(120,180,255,.4));
+
+}
+
+.text-block {
+
+text-align:left;
 
 }
 
 h1 {
 
-font-size:60px;
+margin:0;
+font-size:44px;
 letter-spacing:8px;
-margin-bottom:20px;
+font-weight:600;
 
 }
 
 .tagline {
 
-font-size:22px;
-opacity:.85;
-
-}
-
-.coming {
-
-margin-top:25px;
+margin-top:10px;
 font-size:18px;
-opacity:.7;
-
-}
-
-.buttons {
-
-margin-top:40px;
-
-}
-
-.button {
-
-display:inline-block;
-margin:10px;
-padding:14px 28px;
-
-background:#3F7FBF;
-color:white;
-
-border-radius:6px;
-text-decoration:none;
-
-font-weight:600;
-
-}
-
-.button:hover {
-
-background:#4F91D6;
-
-}
-
-.button.outline {
-
-background:transparent;
-border:1px solid #3F7FBF;
-
-}
-
-.section {
-
-max-width:700px;
-margin:auto;
-padding:80px 20px;
-
-opacity:.9;
-
-}
-
-.footer {
-
-padding:40px;
-opacity:.5;
-
-font-size:14px;
+opacity:.8;
 
 }
